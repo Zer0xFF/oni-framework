@@ -34,6 +34,7 @@ for the platforms that do enable kernel ASLR (Address Space Layout Randomization
 #define kdlsym_addr_exec_new_vmspace                       0x0038A940
 #define kdlsym_addr_fget_unlocked                          0x000C3530
 #define kdlsym_addr_fpu_ctx								   0x0274C040
+//TODO: enter or leave are the same, so one of them is definitely wrong
 #define kdlsym_addr_fpu_kern_enter                         0x001BFE80
 #define kdlsym_addr_fpu_kern_leave                         0x001BFF80
 #define kdlsym_addr_free								   0x0010E350
